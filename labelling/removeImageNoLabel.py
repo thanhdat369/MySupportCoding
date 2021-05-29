@@ -1,9 +1,9 @@
 import os
 
 #LABEL TYPE IS YOLO TXT
-BASE_DIR = 'D:/FPT_Capstone/Capstone/03_Data/SignDetect2'
-LABEL_DIR = f'{BASE_DIR}/Label/'
-IMAGE_DIR = f'{BASE_DIR}/Data/'
+BASE_DIR = 'D:/FPT_Capstone/Capstone/03_Data/SignDetect2/new_data_2'
+LABEL_DIR = f'{BASE_DIR}/labels/'
+IMAGE_DIR = f'{BASE_DIR}/images/'
 
 all_file_label_name = os.listdir(LABEL_DIR)
 all_file_name = [file_name.split('.')[0] for file_name in all_file_label_name] #without extension

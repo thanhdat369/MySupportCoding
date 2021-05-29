@@ -1,0 +1,6 @@
+stop
+speed up
+speed down
+turn left
+turn right
+foward
